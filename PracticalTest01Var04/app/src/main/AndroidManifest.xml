@@ -10,6 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PracticalTest01Var04">
         <activity
+            android:name=".PracticalTest01Var04SecondaryActivity"
+            android:exported="false">
+
+            <intent-filter>
+                <action android:name="com.example.practicaltest01.PracticalTest01Var04SecondaryActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

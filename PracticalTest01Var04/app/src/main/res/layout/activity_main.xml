@@ -8,7 +8,7 @@
     android:orientation="vertical" >
 
     <Button
-        android:id="@+id/naivigateToSecondaryActivityButton"
+        android:id="@+id/navigateToSecondaryActivityButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/purple_200"
@@ -36,8 +36,7 @@
             android:layout_height="wrap_content"
             android:saveEnabled="false"
             android:layout_row="0"
-            android:layout_column="1"
-            android:hint="Nume student"/>
+            android:layout_column="1" />
 
         <CheckBox
             android:id="@+id/secondCheckBox"
@@ -52,8 +51,7 @@
             android:layout_height="wrap_content"
             android:saveEnabled="false"
             android:layout_row="1"
-            android:layout_column="1"
-            android:hint="Grupa student"/>
+            android:layout_column="1" />
     </GridLayout>
 
     <Button
@@ -62,13 +60,12 @@
         android:layout_height="wrap_content"
         android:backgroundTint="@color/purple_200"
         android:layout_gravity="center_horizontal"
-        android:text="@string/navigate_to_secondary_activity" />
+        android:text="@string/display_information" />
 
     <TextView
         android:id="@+id/messageTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="start"
-        android:hint="@string/nume_student_grupa" />
+        android:layout_gravity="start" />
 
 </LinearLayout>
